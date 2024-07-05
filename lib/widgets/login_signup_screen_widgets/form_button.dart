@@ -23,7 +23,8 @@ class FormButton extends StatelessWidget {
         ),
         onPressed: handler,
         child: Text(title,
-          style: const TextStyle(color: Colors.white),),
+          style: const TextStyle(color: Colors.white),
+        ),
       ),
     );
   }
