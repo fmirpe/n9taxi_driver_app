@@ -5,7 +5,7 @@ import '../services/database_service.dart';
 import '../widgets/side_drawer.dart';
 
 class CashEarnedScreen extends StatelessWidget {
-  const CashEarnedScreen({Key? key}) : super(key: key);
+  const CashEarnedScreen({super.key});
 
   static const String route = '/cash-earned';
 

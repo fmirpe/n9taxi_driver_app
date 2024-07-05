@@ -5,7 +5,7 @@ import '../services/database_service.dart';
 import '../widgets/side_drawer.dart';
 
 class CompletedTripsScreen extends StatelessWidget {
-  const CompletedTripsScreen({Key? key}) : super(key: key);
+  const CompletedTripsScreen({super.key});
 
   static const String route = '/completed-trips';
 

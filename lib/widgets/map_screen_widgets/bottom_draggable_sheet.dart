@@ -8,7 +8,7 @@ import '../../providers/map_provider.dart';
 import '../../services/database_service.dart';
 
 class BottomDraggableSheet extends StatefulWidget {
-  const BottomDraggableSheet({Key? key}) : super(key: key);
+  const BottomDraggableSheet({super.key});
 
   @override
   State<BottomDraggableSheet> createState() => _BottomDraggableSheetState();

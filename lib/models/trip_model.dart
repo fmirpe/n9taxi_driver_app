@@ -2,6 +2,7 @@ class Trip {
   String? id;
   String? passengerId;
   String? driverId;
+  String? country;
   String? pickupAddress;
   String? destinationAddress;
   double? pickupLatitude;
@@ -21,6 +22,7 @@ class Trip {
     this.id,
     this.passengerId,
     this.driverId,
+    this.country,
     this.pickupAddress,
     this.destinationAddress,
     this.pickupLatitude,
@@ -41,6 +43,7 @@ class Trip {
         id: data['id'],
         passengerId: data['passengerId'],
         driverId: data['driverId'],
+        country: data['country'],
         pickupAddress: data['pickupAddress'],
         destinationAddress: data['destinationAddress'],
         pickupLatitude: data['pickupLatitude'],
@@ -69,6 +72,7 @@ class Trip {
     addNonNull('id', id);
     addNonNull('passengerId', passengerId);
     addNonNull('driverId', driverId);
+    addNonNull('country', country);
     addNonNull('pickupAddress', pickupAddress);
     addNonNull('destinationAddress', destinationAddress);
     addNonNull('pickupLatitude', pickupLatitude);

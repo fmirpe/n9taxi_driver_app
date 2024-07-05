@@ -14,7 +14,7 @@ import '../widgets/map_screen_widgets/trip_started.dart';
 import '../widgets/side_drawer.dart';
 
 class MapScreen extends StatelessWidget {
-  const MapScreen({Key? key}) : super(key: key);
+  const MapScreen({super.key});
 
   static const String route = '/home';
 

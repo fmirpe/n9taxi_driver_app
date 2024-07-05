@@ -7,7 +7,7 @@ import '../../providers/map_provider.dart';
 import '../../services/database_service.dart';
 
 class StartTrip extends StatelessWidget {
-  const StartTrip({Key? key}) : super(key: key);
+  const StartTrip({super.key});
 
   void _startTrip(Trip ongoingTrip, MapProvider mapProvider) {
     final DatabaseService dbService = DatabaseService();

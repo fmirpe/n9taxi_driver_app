@@ -10,7 +10,7 @@ import '../screens/login_signup_screen.dart';
 import '../screens/map_screen.dart';
 
 class CustomSideDrawer extends StatelessWidget {
-  const CustomSideDrawer({Key? key}) : super(key: key);
+  const CustomSideDrawer({super.key});
 
   @override
   Widget build(BuildContext context) {

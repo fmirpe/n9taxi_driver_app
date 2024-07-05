@@ -7,7 +7,7 @@ import '../../providers/map_provider.dart';
 import '../../services/database_service.dart';
 
 class CollectCash extends StatelessWidget {
-  const CollectCash({Key? key}) : super(key: key);
+  const CollectCash({super.key});
 
   void _collectCash(
     BuildContext context,
