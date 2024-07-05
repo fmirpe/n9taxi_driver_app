@@ -192,7 +192,7 @@ class MapProvider with ChangeNotifier {
   void setDeviceLocationAddress(double latitude, double longitude) {
     placemarkFromCoordinates(latitude, longitude)
         .then((List<Placemark> places) {
-      _deviceAddress = places[2].name;
+      _deviceAddress = places[2].street;
 
       if (kDebugMode) {
         print(places[2].toString());

@@ -21,6 +21,12 @@ class LoginSignupScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
+                Image.asset(
+                  "images/logon91.png",
+                  height: 80,
+                  width: 80,
+                ),
+                const SizedBox(height: 10),
                 Icon(
                   Icons.location_on_sharp,
                   size: 100,
