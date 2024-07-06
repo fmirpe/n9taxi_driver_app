@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.lemtech.n9taxiapp_driver">
     <application
-        android:label="n9taxi_driver_app"
+        android:label="N9 TaxiApp Driver"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:exported="true"
