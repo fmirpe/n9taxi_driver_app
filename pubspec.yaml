@@ -46,6 +46,7 @@ dependencies:
   uuid:
   flutter_polyline_points:
   http:
+  assets_audio_player:
 
 dev_dependencies:
   flutter_test:
